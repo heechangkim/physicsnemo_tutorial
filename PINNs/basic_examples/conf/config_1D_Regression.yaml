@@ -42,11 +42,11 @@ network_dir: outputs_regression_1d
 initialization_network_dir: ''
 save_filetypes: vtk
 summary_histograms: 'off'
-jit: true
+jit: False
 jit_use_nvfuser: true
 jit_arch_mode: only_activation
 jit_autograd_nodes: false
-cuda_graphs: true
+cuda_graphs: False
 cuda_graph_warmup: 20
 find_unused_parameters: false
 broadcast_buffers: false
