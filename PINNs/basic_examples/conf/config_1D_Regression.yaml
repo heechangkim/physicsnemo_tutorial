@@ -86,7 +86,7 @@ optimizer:
 scheduler:
   _target_: custom
   _name_: tf.ExponentialLR
-  decay_rate: 0.95
+  decay_rate: 1.00
   decay_steps: 4000
 batch_size:
   data: 512
